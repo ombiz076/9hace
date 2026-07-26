@@ -18,13 +18,17 @@
       padding: 10px; display: none; background-color: #f9f9f9;
       border: 1px solid #ddd; margin-bottom: 10px; border-radius: 5px;
     }
-    ul { margin-left: 20px; }
+    /* Atur ulang margin list agar tidak terlalu masuk */
+    ul { margin-left: 10px; padding-left: 15px; }
+    li { margin-bottom: 5px; }
+
     /* Media query untuk layar kecil */
     @media (max-width: 600px) {
-      body { margin: 10px; font-size: 0.9em; }
+      body { margin: 8px; font-size: 0.9em; }
       h1 { font-size: 1.2em; }
       .accordion button { font-size: 0.95em; padding: 10px; }
       .panel { font-size: 0.9em; }
+      ul { margin-left: 5px; padding-left: 12px; }
     }
   </style>
 </head>
